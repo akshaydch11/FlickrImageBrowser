@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_refresh"
+        android:icon="@android:drawable/ic_popup_sync"/>
+    <item android:id="@+id/action_prev" android:orderInCategory="100" android:showAsAction="ifRoom" android:title="Prev"></item><item android:id="@+id/action_next" android:orderInCategory="100" android:title="Next" android:showAsAction="ifRoom"></item>
+    
+
+</menu>

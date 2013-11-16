@@ -1,0 +1,8 @@
+   
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fsImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="cat"
+        android:background="#000000" />
