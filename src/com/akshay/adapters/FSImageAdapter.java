@@ -17,7 +17,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 public class FSImageAdapter extends PagerAdapter {
 
@@ -38,7 +37,7 @@ public class FSImageAdapter extends PagerAdapter {
 
 	@Override
 	public boolean isViewFromObject(View view, Object obj) {
-		return (view == ((LinearLayout) obj));
+		return (view == ((ImageView) obj));
 	}
 
 	@Override
@@ -61,7 +60,7 @@ public class FSImageAdapter extends PagerAdapter {
 	
 	@Override
     public void destroyItem(ViewGroup container, int position, Object object) {
-        ((ViewPager) container).removeView((LinearLayout) object);
+        ((ViewPager) container).removeView((ImageView) object);
  
     }
 
